@@ -1,4 +1,5 @@
+node_modules/
+.prettierrc.js
+.eslintrc.js
 dist
-node_modules
 coverage
-.idea

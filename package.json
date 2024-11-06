@@ -1,26 +1,37 @@
 {
   "name": "browser-assert2",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Featherweight assert module",
+  "main": "dist/assert.js",
+  "types": "dist/assert.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
+  "author": "muji <noop@xpm.io>",
+  "maintainers": [
+    {
+      "name": "benedikt Sottong",
+      "email": "benediktsommer@aol.de"
+    }
+  ],
   "license": "MIT",
+  "keywords": [
+    "browser-assert",
+    "Featherweight",
+    "assert",
+    "browser"
+  ],
   "devDependencies": {
-    "@types/jest": "^29.5.13",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.6.2",
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
     "eslint": "^8",
-    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-prettier": "5.2.1",
-    "@typescript-eslint/eslint-plugin": "^8.8.0"
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
   }
 }
