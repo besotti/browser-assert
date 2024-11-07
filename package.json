@@ -17,6 +17,13 @@
       "email": "benediktsommer@aol.de"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/besotti/browser-assert.git"
+  },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "keywords": [
     "browser-assert",
