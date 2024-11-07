@@ -1,6 +1,6 @@
 {
   "name": "browser-assert2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Featherweight assert module",
   "main": "dist/assert.js",
   "types": "dist/assert.d.ts",
